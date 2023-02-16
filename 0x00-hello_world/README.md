@@ -8,4 +8,5 @@
 - 5-printf.c: C program that prints - with proper grammar, but the outcome is a piece of art, - to stdout using printf function.
 - 6-size.c: C program that prints sizes of the various primitive types.
 - 7-100-intel: generates Intel assembly code of a C code and saves it in a file with a '*.s' extention.
+- 101-quote.c
 
