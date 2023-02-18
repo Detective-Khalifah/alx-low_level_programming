@@ -7,3 +7,5 @@
 - 6-print_numberz.c: Prints all single digit numbers of base 10 starting from 0, followed by a newline character (using only the putchar function).
 - 7-print_tebahpla.c: Print the (lowercase) English alphabet in reverse, follwed by a newline.
 - 8-print_base16.c: Print all numbers of base 16 in lowercase, followed by a newline.
+- 9-print_comb.c: Print all pssible combinations of comma-separated single-digit numbers.
+
