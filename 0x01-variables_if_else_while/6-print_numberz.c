@@ -6,13 +6,13 @@
  * followed by a newline character (using the putchar function.)
  * Return: 0 if successful.
  */
-int main (void)
+int main(void)
 {
-	char num;
-	
-	for (num = '0'; num <= '9'; num++)
+	int num;
+
+	for (num = 0; num <= 9; num++)
 	{
-		putchar(num);
+		putchar('0' + num);
 	}
 	putchar('\n');
 
