@@ -1,4 +1,4 @@
-# 0x00-hell_world
+# 0x00-hello_world
 ## - Scripts
 - 0-preprocessor.
 - 1-compiler.
