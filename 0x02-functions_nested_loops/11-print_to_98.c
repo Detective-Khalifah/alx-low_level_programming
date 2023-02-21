@@ -1,4 +1,4 @@
-#include "main.h"
+/** #include "main.h" */
 #include <stdio.h>
 
 /**
@@ -12,17 +12,17 @@ void print_to_98(int n)
 	{
 		if (n == 98)
 		{
-			_putchar(n / 10 + '0');
-			_putchar(n % 10 + '0');
-			_putchar('\n');
-			break;
+			printf("%d\n", n);
+			return;
 		}
-		else if (n < 98)
+
+		if (n < 98)
 		{
 			printf("%d, ", n);
 			n++;
 		}
-		else if (n > 98)
+
+		if (n > 98)
 		{
 			printf("%d, ", n);
 			n--;
