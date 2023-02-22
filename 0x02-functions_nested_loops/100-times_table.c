@@ -40,7 +40,7 @@ void print_times_table(int n)
 			if (n > 0 && n <= 10)
 			{
 				_putchar(' ');
-				if (prod <= 9)
+				if (r * ++n <= 9)
 					_putchar(' ');
 			}
 		}
