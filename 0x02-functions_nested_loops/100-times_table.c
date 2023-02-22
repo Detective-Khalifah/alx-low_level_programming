@@ -39,7 +39,8 @@ void print_times_table(int n)
 			_putchar(' ');
 			if (n > 0 && n <= 10)
 			{
-				_putchar(' ');
+				if (r * (c + 1) <= 99)
+					_putchar(' ');
 				if (r * (c + 1) <= 9)
 					_putchar(' ');
 			}
