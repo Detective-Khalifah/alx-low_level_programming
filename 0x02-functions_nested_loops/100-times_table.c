@@ -24,11 +24,14 @@ void print_times_table(int n)
 
 			_putchar(r * c % 10 + '0');
 
-			if (c == 9)
+			if (c == n)
 			{
 				_putchar('\n');
 				continue;
 			}
+
+			if (n == 0)
+				break;
 
 			_putchar(',');
 			_putchar(' ');
