@@ -6,10 +6,10 @@
  */
 void print_times_table(int n)
 {
+	int c, r, prod;
+
 	if (n > 15 || n < 0)
 		return;
-
-	int r, c, prod;
 
 	for (r = 0; r <= n; r++)
 	{
