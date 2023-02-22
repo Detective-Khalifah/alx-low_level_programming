@@ -17,18 +17,15 @@ void print_times_table(int n)
 		{
 			prod = r * c;
 
-			if (prod <= 9)
-				_putchar(prod % 10 + '0');
-			if (prod > 9)
+			if (prod > 99)
 			{
-				if (prod > 99)
-					_putchar(prod / 100 + '0');
-
-				_putchar(prod / 10 + '0');
-				_putchar(prod % 10 + '0');
+				_putchar(prod / 100 + '0');
+				_putchar(prod % 100 + '0')
 			}
+			if (prod > 9)
+				_putchar(prod / 10 + '0');
+			_putchar(prod % 10 + '0');
 
-			/* Add newline when last product reached */
 			if (c == n)
 			{
 				_putchar('\n');
@@ -38,13 +35,12 @@ void print_times_table(int n)
 			if (n == 0)
 				break;
 
-			/* Add comma, and space */
 			_putchar(',');
 			_putchar(' ');
 			if (n > 0 && n < 99)
 			{
 				_putchar(' ');
-				if (r == 0)
+				if (prod <= 9)
 					_putchar(' ');
 			}
 		}
