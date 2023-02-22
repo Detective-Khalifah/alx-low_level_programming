@@ -17,10 +17,16 @@ void print_times_table(int n)
 		{
 			prod = r * c;
 
-			if (prod > 9)
+			if (prod > 99)
+				_putchar(prod / 100 + '0');
+			else if (prod > 9)
 				_putchar(prod / 10 + '0');
 			else if (prod <= 9 && c > 0)
+			{
+				if (n > 99)
+					_putchar(' ');
 				_putchar(' ');
+			}
 
 			_putchar(r * c % 10 + '0');
 
