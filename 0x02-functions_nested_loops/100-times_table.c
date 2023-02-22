@@ -23,16 +23,8 @@ void print_times_table(int n)
 				_putchar(prod / 10 + '0');
 			if (prod > 99)
 				_putchar(prod / 100 + '0');
-				/* _putchar(prod % 100 + '0'); */
 
 			/* Add (more) spacing depending on length of n-digit */
-			if (prod <= 9 && c > 0)
-			{
-				if (n > 99)
-					_putchar(' ');
-				_putchar(' ');
-		
-
 			if (c == n)
 			{
 				_putchar('\n');
@@ -42,10 +34,10 @@ void print_times_table(int n)
 			if (n == 0)
 				break;
 
+			/* Add comma, and space */
 			_putchar(',');
 			_putchar(' ');
-			
-			if (n > 0 && n < 100)
+			if (n > 0 && n < 99)
 				_putchar(' ');
 		}
 	}
