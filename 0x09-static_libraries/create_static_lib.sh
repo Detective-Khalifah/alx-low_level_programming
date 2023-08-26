@@ -1,5 +1,5 @@
 #!/bin/bash
 
-gcc -c -std=c11*.c
+gcc -c -std=c11 *.c
 ar -rc liball.a *.o
 
