@@ -1,11 +1,10 @@
-## 0x0C-more_malloc_free
+## 0x0D-preprocessor
 ### Files
 - .gitignore: to ignore unit tests.
-- main.h: header file.
-- 0-object_like_macro.c
-- 1-.c
-- 2-.c
-- 3-.c
+- 0-object_like_macro.h
+- 1-pi.h
+- 2-main.c
+- 3-functions_like_macro.h
 
 + "gcc -c -Wall -Werror -Wextra -pedantic -std=gnu89" to compile.
 
