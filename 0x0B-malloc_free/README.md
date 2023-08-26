@@ -2,7 +2,8 @@
 ### Files
 - .gitignore: to ignore unit tests.
 - main.h: header file.
-- 0-
+- 0-create_array.c
+- 1-strdup.c
 
 + "gcc -c -Wall -Werror -Wextra -pedantic -std=gnu89" to compile.
 
