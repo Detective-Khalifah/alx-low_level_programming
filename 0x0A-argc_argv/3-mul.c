@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include "main.h"
 
-int main(int, char);
-int _atoi(char *s);
-
 /**
  * main - multiplies two numbers
  * @argc: number of arguments
